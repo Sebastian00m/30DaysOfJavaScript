@@ -10,6 +10,7 @@ for(let i=0 ; i<Lenguajes.length ; i++){
     console.log(Lenguajes[i]);
     //nos obliga a usar los index   
 }
+Lenguajes.forEach((el,index) => console.log(`el ${index} index con valor ${el}`));
 
 //ciclo forEach
 Lenguajes.forEach((lenguaje) => {
